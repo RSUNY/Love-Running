@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 header {
-        margin: 0;
+        margin: 0
+        /* -----------------------------------------specail margin/padding/text*/
 
+h1
+h2
+h3
+h4  {
+        margin: 0;
+        .uppercase {
+                text-transform: uppercase;
+        }
+general-sub  {
+        font-family; "Exo" , sans-serif;
+        font-weight: 300;
+        color: #fafafa;
+
+
+        }
+
+}
         /* -----------------------------------------heading */
         .heading {
                 margin-left: 50px;
@@ -74,3 +92,56 @@ header {
                 padding: 0;
 
         }
+        /* third overall height of the section */
+        .menuitem  {
+               height: 120px;
+                /* some padding */
+               text-align: center;
+               padding: 0;
+               
+        }
+        .menuitem a  {
+                width: 100%;
+                text-decoration: none;
+                color:#fff
+                height: 120px;
+        }
+/* push it down  little from top of the div */
+.menuitem a i  {
+                padding-top: 0;
+                display: block;
+                color: #fafafa
+                font-size: 26px;
+.menuitem span  {
+                display: block;
+                width: 100%;
+                padding-top: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 300;
+                letter-spacing: 2px;
+
+}
+#nav  {
+        margin: 0;
+}
+
+
+        }
+         /* -----------------------------------------hover.css */
+.hvr-sweep-to-bottom:before {
+       background: rgba(0,0,0,0.2);
+       height: 120px;
+}
+/* -----------------------------------------footer*/
+
+footer  {
+        background-color: #525252;
+        color: #fafafa;
+        min-height: 120px;
+        margin: 0;
+
+
+
+}
